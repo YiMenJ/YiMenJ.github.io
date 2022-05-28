@@ -23,6 +23,8 @@ body {
   width: 100vw;
   height: 101vh;
   background-image: url(./1.jpg);
+  background-size: cover;
+  background-position: center;
   margin-top: -101vh;
 }
 .dongHua {
