@@ -20,7 +20,7 @@ body {
   background-color: rgb(218, 205, 205);
 }
 .dongHua {
-  margin-left: -1920px;
+  margin-left: -170vh;
   height: 100vh;
   position: relative;
   z-index: -1;
@@ -28,17 +28,14 @@ body {
 .div {
   animation: myfirst 4s;
   -webkit-animation: myfirst 4s;
-  visibility: hidden;
 }
 @keyframes myfirst {
   0% {
-    left: 0px;
-    visibility: visible;
+    left: 0;
     z-index: 10;
   }
   100% {
-    left: 4000px;
-    visibility: visible;
+    left: 3860px;
     z-index: 10;
   }
 }
