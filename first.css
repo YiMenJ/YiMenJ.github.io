@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+  width: auto;
+  margin: 0;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+}
+.flex1 {
+  flex: 1;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.baiSe {
+  background-color: rgb(218, 205, 205);
+}
+.dongHua {
+  margin-left: -1920px;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+.div {
+  animation: myfirst 4s;
+  -webkit-animation: myfirst 4s;
+  visibility: hidden;
+}
+@keyframes myfirst {
+  0% {
+    left: 0px;
+    visibility: visible;
+    z-index: 10;
+  }
+  100% {
+    left: 4000px;
+    visibility: visible;
+    z-index: 10;
+  }
+}
