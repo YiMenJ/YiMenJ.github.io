@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: rgb(166, 205, 212);
+}
+/* * {
+  border: 1px solid black;
+} */
+.flex {
+  display: flex;
+}
+.baiSe {
+  background-color: rgb(226, 226, 226);
+}
+.flex1 {
+  flex: 1;
+}
+.column {
+  flex-direction: column;
+}
+.yuan {
+  border-radius: 6px 6px 6px 6px;
+}
+.yuanS {
+  border-radius: 10px 10px 0 0;
+}
+.yuanX {
+  border-radius: 0 0 10px 10px;
+}
